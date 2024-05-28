@@ -23,6 +23,8 @@ a {
   font-size: 2rem;
 }
 
+
+
 .card:hover{
   transform: scale(1.1);
   transition: all 1s;

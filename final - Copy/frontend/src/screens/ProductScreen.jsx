@@ -95,12 +95,11 @@ const ProductScreen = () => {
                   />
                 </ListGroup.Item>
                 <ListGroup.Item>Price: ${product.price}</ListGroup.Item>
-                <ListGroup.Item>
-                  Description: {product.description}
-                </ListGroup.Item>
+                
               </ListGroup>
             </Col>
             <Col md={3}>
+           
               <Card>
                 <ListGroup variant='flush'>
                   <ListGroup.Item>
@@ -158,6 +157,12 @@ const ProductScreen = () => {
               </Card>
             </Col>
           </Row>
+          <Row>
+                <Col>
+
+                Description: {product.description}
+                </Col>
+              </Row>
           <Row className='review'>
             <Col md={6}>
               <h2>Reviews</h2>
